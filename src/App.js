@@ -216,10 +216,7 @@ export default function App() {
           onGravityChange={handleGravityChange}
           onDensityChange={handleDensityChange}
         />
-        <canvas
-          id="myCanvas"
-          style={{ height: "80vh", boxSizing: "content-box", width: "100%" }}
-        />
+        <canvas id="myCanvas" />
       </body>
     </div>
   );
